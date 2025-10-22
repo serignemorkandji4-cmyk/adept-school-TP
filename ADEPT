@@ -1,0 +1,3053 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADEPT SCHOOL - École Internationale</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Top -->
+    <div class="header-top">
+        <div class="container">
+            <div class="contact-info">
+                <span><i class="fas fa-phone"></i> +221 33 823 10 00</span>
+                <span><i class="fas fa-envelope"></i> contact@adeptschool.sn</span>
+                <span><i class="fas fa-map-marker-alt"></i> Rue 10, Point E, Dakar</span>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Principale -->
+    <header class="main-header">
+        <div class="container nav-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="ADEPT SCHOOL" onerror="this.src='https://via.placeholder.com/80x80/0055a4/ffffff?text=AS'">
+                <div class="logo-text">
+                    <h1>ADEPT SCHOOL</h1>
+                    <p>École Internationale d'Excellence</p>
+                </div>
+            </div>
+            
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" class="active">Accueil</a></li>
+                    <li class="dropdown">
+                        <a href="about.html">À propos <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="about.html">Présentation</a></li>
+                            <li><a href="histoire.html">Notre Histoire</a></li>
+                            <li><a href="direction.html">Direction</a></li>
+                            <li><a href="projet.html">Projet d'Établissement</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="etablissement.html">Établissement <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="maternelle.html">École Maternelle</a></li>
+                            <li><a href="elementaire.html">École Élémentaire</a></li>
+                            <li><a href="college.html">Collège</a></li>
+                            <li><a href="lycee.html">Lycée</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="pedagogie.html">Pédagogie <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="programmes.html">Programmes</a></li>
+                            <li><a href="methodes.html">Méthodes Pédagogiques</a></li>
+                            <li><a href="numerique.html">Numérique Éducatif</a></li>
+                            <li><a href="orientation.html">Orientation</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="vie-scolaire.html">Vie Scolaire</a></li>
+                    <li><a href="inscriptions.html">Inscriptions</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Bannière Hero -->
+    <section class="hero">
+        <div class="container">
+            <h2>Bienvenue à ADEPT SCHOOL</h2>
+            <p>Une école d'excellence au cœur de Dakar, formant les citoyens de demain depuis 2010</p>
+            <a href="inscriptions.html" class="btn">Pré-inscription en ligne</a>
+        </div>
+    </section>
+
+    <!-- Section Actualités -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Actualités & Événements</h2>
+                <p>Restez informés de la vie de notre établissement</p>
+            </div>
+            
+            <div class="news-grid">
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="images/actualite1.jpg" alt="Rentrée Scolaire" onerror="this.src='https://via.placeholder.com/400x200/0055a4/ffffff?text=Rentrée+2024'">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-date">25 Août 2024</span>
+                        <h3>Rentrée Scolaire 2024-2025</h3>
+                        <p>Informations importantes concernant la rentrée des classes prévue le 2 septembre 2024.</p>
+                        <a href="#" class="btn">Lire la suite</a>
+                    </div>
+                </article>
+                
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="images/actualite2.jpg" alt="Forum des Métiers" onerror="this.src='https://via.placeholder.com/400x200/ff6600/ffffff?text=Forum+Métiers'">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-date">15 Juin 2024</span>
+                        <h3>Forum des Métiers et de l'Orientation</h3>
+                        <p>Rencontrez des professionnels et découvrez les filières d'avenir lors de notre forum annuel.</p>
+                        <a href="#" class="btn">Lire la suite</a>
+                    </div>
+                </article>
+                
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="images/actualite3.jpg" alt="Réussite au Bac" onerror="this.src='https://via.placeholder.com/400x200/28a745/ffffff?text=Réussite+Bac'">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-date">5 Juillet 2024</span>
+                        <h3>Résultats du Baccalauréat 2024</h3>
+                        <p>Félicitations à nos élèves qui ont obtenu 98% de réussite au baccalauréat cette année.</p>
+                        <a href="#" class="btn">Lire la suite</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Chiffres Clés -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number">98%</span>
+                    <span class="stat-label">Réussite au Bac</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">1,200</span>
+                    <span class="stat-label">Élèves</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">85</span>
+                    <span class="stat-label">Enseignants</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">15</span>
+                    <span class="stat-label">Nationalités</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Cycles d'Enseignement -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nos Cycles d'Enseignement</h2>
+                <p>Un parcours éducatif complet de la maternelle au lycée</p>
+            </div>
+            
+            <div class="news-grid">
+                <div class="news-card">
+                    <div class="news-image">
+                        <img src="images/maternelle.jpg" alt="Maternelle" onerror="this.src='https://via.placeholder.com/400x200/0055a4/ffffff?text=Maternelle'">
+                    </div>
+                    <div class="news-content">
+                        <h3>École Maternelle</h3>
+                        <p>De la Petite Section à la Grande Section, un environnement adapté pour l'éveil des tout-petits.</p>
+                        <a href="maternelle.html" class="btn">Découvrir</a>
+                    </div>
+                </div>
+                
+                <div class="news-card">
+                    <div class="news-image">
+                        <img src="images/elementaire.jpg" alt="Élémentaire" onerror="this.src='https://via.placeholder.com/400x200/ff6600/ffffff?text=Élémentaire'">
+                    </div>
+                    <div class="news-content">
+                        <h3>École Élémentaire</h3>
+                        <p>Du CP au CM2, l'acquisition des fondamentaux dans un cadre bienveillant et stimulant.</p>
+                        <a href="elementaire.html" class="btn">Découvrir</a>
+                    </div>
+                </div>
+                
+                <div class="news-card">
+                    <div class="news-image">
+                        <img src="images/college.jpg" alt="Collège" onerror="this.src='https://via.placeholder.com/400x200/28a745/ffffff?text=Collège'">
+                    </div>
+                    <div class="news-content">
+                        <h3>Collège</h3>
+                        <p>De la 6ème à la 3ème, approfondissement des connaissances et préparation au brevet.</p>
+                        <a href="college.html" class="btn">Découvrir</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Admissions -->
+    <section style="background-color: #1a4a8d; color: white; text-align: center; padding: 60px 0;">
+        <div class="container">
+            <h2 style="font-size: 2rem; margin-bottom: 20px;">Prêt à nous rejoindre ?</h2>
+            <p style="font-size: 1.2rem; margin-bottom: 30px; max-width: 700px; margin-left: auto; margin-right: auto;">
+                Découvrez notre processus d'admission et inscrivez votre enfant pour l'année scolaire prochaine.
+            </p>
+            <a href="inscriptions.html" class="btn" style="background-color: white; color: #1a4a8d;">Procédure d'admission</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>ADEPT SCHOOL</h3>
+                    <p>École internationale d'excellence située au cœur de Dakar, formant les citoyens de demain depuis 2010.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Liens Rapides</h3>
+                    <a href="index.html">Accueil</a>
+                    <a href="about.html">À propos</a>
+                    <a href="etablissement.html">Établissement</a>
+                    <a href="pedagogie.html">Pédagogie</a>
+                    <a href="vie-scolaire.html">Vie Scolaire</a>
+                    <a href="inscriptions.html">Inscriptions</a>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Cycles</h3>
+                    <a href="maternelle.html">École Maternelle</a>
+                    <a href="elementaire.html">École Élémentaire</a>
+                    <a href="college.html">Collège</a>
+                    <a href="lycee.html">Lycée</a>
+                    <a href="activites.html">Activités Périscolaires</a>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Rue 10, Point E, Dakar</p>
+                    <p><i class="fas fa-phone"></i> +221 33 823 10 00</p>
+                    <p><i class="fas fa-envelope"></i> contact@adeptschool.sn</p>
+                    <p><i class="fas fa-clock"></i> Lun-Ven: 7h30-18h00</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 ADEPT SCHOOL. Tous droits réservés. | <a href="#" style="color: #ccc;">Mentions légales</a> | <a href="#" style="color: #ccc;">Politique de confidentialité</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscriptions - ADEPT SCHOOL</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Top -->
+    <div class="header-top">
+        <div class="container">
+            <div class="contact-info">
+                <span><i class="fas fa-phone"></i> +221 33 823 10 00</span>
+                <span><i class="fas fa-envelope"></i> contact@adeptschool.sn</span>
+                <span><i class="fas fa-map-marker-alt"></i> Rue 10, Point E, Dakar</span>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Principale -->
+    <header class="main-header">
+        <div class="container nav-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="ADEPT SCHOOL" onerror="this.src='https://via.placeholder.com/80x80/0055a4/ffffff?text=AS'">
+                <div class="logo-text">
+                    <h1>ADEPT SCHOOL</h1>
+                    <p>École Internationale d'Excellence</p>
+                </div>
+            </div>
+            
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li class="dropdown">
+                        <a href="about.html">À propos <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="about.html">Présentation</a></li>
+                            <li><a href="histoire.html">Notre Histoire</a></li>
+                            <li><a href="direction.html">Direction</a></li>
+                            <li><a href="projet.html">Projet d'Établissement</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="etablissement.html">Établissement <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="maternelle.html">École Maternelle</a></li>
+                            <li><a href="elementaire.html">École Élémentaire</a></li>
+                            <li><a href="college.html">Collège</a></li>
+                            <li><a href="lycee.html">Lycée</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="pedagogie.html">Pédagogie <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="programmes.html">Programmes</a></li>
+                            <li><a href="methodes.html">Méthodes Pédagogiques</a></li>
+                            <li><a href="numerique.html">Numérique Éducatif</a></li>
+                            <li><a href="orientation.html">Orientation</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="vie-scolaire.html">Vie Scolaire</a></li>
+                    <li><a href="inscriptions.html" class="active">Inscriptions</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- En-tête de page -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Inscriptions</h1>
+            <p>Rejoignez la communauté ADEPT SCHOOL pour l'année scolaire 2024-2025</p>
+        </div>
+    </section>
+
+    <!-- Fil d'Ariane -->
+    <div class="breadcrumb">
+        <div class="container">
+            <a href="index.html">Accueil</a> > <span>Inscriptions</span>
+        </div>
+    </div>
+
+    <!-- Introduction -->
+    <section class="section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Procédure d'Inscription</h2>
+                    <p>Nous sommes ravis de votre intérêt pour ADEPT SCHOOL. Notre processus d'inscription est conçu pour être simple, transparent et accueillant pour toutes les familles.</p>
+                    
+                    <p>Les inscriptions pour l'année scolaire 2024-2025 sont ouvertes jusqu'au <strong>31 juillet 2024</strong>. Les places étant limitées, nous vous encourageons à compléter votre dossier rapidement.</p>
+                    
+                    <div class="admission-features">
+                        <div class="admission-feature">
+                            <i class="fas fa-calendar-check"></i>
+                            <span>Inscriptions ouvertes</span>
+                        </div>
+                        <div class="admission-feature">
+                            <i class="fas fa-user-friends"></i>
+                            <span>Entretien personnalisé</span>
+                        </div>
+                        <div class="admission-feature">
+                            <i class="fas fa-euro-sign"></i>
+                            <span>Frais transparents</span>
+                        </div>
+                        <div class="admission-feature">
+                            <i class="fas fa-clock"></i>
+                            <span>Réponse sous 15 jours</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/inscriptions-intro.jpg" alt="Inscriptions ADEPT SCHOOL" onerror="this.src='https://via.placeholder.com/600x400/0055a4/ffffff?text=Inscriptions+2024-2025'">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Calendrier -->
+    <section class="section" style="background-color: #f8f9fa;">
+        <div class="container">
+            <div class="section-title">
+                <h2>Calendrier des Inscriptions</h2>
+                <p>Dates importantes à retenir pour l'année scolaire 2024-2025</p>
+            </div>
+
+            <div class="calendar-timeline">
+                <div class="calendar-phase">
+                    <div class="phase-header">
+                        <div class="phase-number">1</div>
+                        <h3>Phase d'Information</h3>
+                        <span class="phase-date">1er Février - 31 Mars 2024</span>
+                    </div>
+                    <div class="phase-content">
+                        <p>Portes ouvertes virtuelles et physiques. Récupération des dossiers de candidature.</p>
+                        <ul>
+                            <li><strong>Portes Ouvertes :</strong> 15-16 Mars 2024</li>
+                            <li><strong>Webinaires :</strong> Tous les mercredis à 18h</li>
+                            <li><strong>Visites individuelles :</strong> Sur rendez-vous</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="calendar-phase">
+                    <div class="phase-header">
+                        <div class="phase-number">2</div>
+                        <h3>Dépôt des Candidatures</h3>
+                        <span class="phase-date">1er Avril - 31 Mai 2024</span>
+                    </div>
+                    <div class="phase-content">
+                        <p>Dépôt des dossiers complets et entretiens de motivation.</p>
+                        <ul>
+                            <li><strong>Dossier papier :</strong> À déposer au secrétariat</li>
+                            <li><strong>Dossier en ligne :</strong> Formulaire disponible sur notre site</li>
+                            <li><strong>Entretiens :</strong> Programmation individuelle</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="calendar-phase">
+                    <div class="phase-header">
+                        <div class="phase-number">3</div>
+                        <h3>Tests d'Admission</h3>
+                        <span class="phase-date">1er - 15 Juin 2024</span>
+                    </div>
+                    <div class="phase-content">
+                        <p>Évaluations adaptées à chaque niveau pour les nouveaux élèves.</p>
+                        <ul>
+                            <li><strong>Maternelle :</strong> Observation en situation</li>
+                            <li><strong>Primaire :</strong> Tests de français et mathématiques</li>
+                            <li><strong>Secondaire :</strong> Tests pluridisciplinaires</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="calendar-phase">
+                    <div class="phase-header">
+                        <div class="phase-number">4</div>
+                        <h3>Réponses et Inscriptions</h3>
+                        <span class="phase-date">16 - 30 Juin 2024</span>
+                    </div>
+                    <div class="phase-content">
+                        <p>Notification des résultats et finalisation des inscriptions.</p>
+                        <ul>
+                            <li><strong>Réponses :</strong> Sous 15 jours après les tests</li>
+                            <li><strong>Inscription définitive :</strong> Paiement des frais</li>
+                            <li><strong>Réinscriptions :</strong> Priorité aux élèves actuels</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Conditions d'Admission -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Conditions d'Admission</h2>
+                <p>Critères et prérequis pour intégrer ADEPT SCHOOL</p>
+            </div>
+
+            <div class="admission-criteria">
+                <div class="criteria-card">
+                    <div class="criteria-icon">
+                        <i class="fas fa-baby"></i>
+                    </div>
+                    <h3>École Maternelle</h3>
+                    <ul>
+                        <li>Âge : 3 ans révolus au 31 décembre</li>
+                        <li>Certificat de vaccination à jour</li>
+                        <li>Observation en situation de jeu</li>
+                        <li>Entretien avec les parents</li>
+                    </ul>
+                </div>
+
+                <div class="criteria-card">
+                    <div class="criteria-icon">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <h3>École Élémentaire</h3>
+                    <ul>
+                        <li>Âge correspondant au niveau de classe</li>
+                        <li>Bulletins des années précédentes</li>
+                        <li>Tests de français et mathématiques</li>
+                        <li>Niveau débutant en anglais accepté</li>
+                    </ul>
+                </div>
+
+                <div class="criteria-card">
+                    <div class="criteria-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>Collège & Lycée</h3>
+                    <ul>
+                        <li>Dossier scolaire complet</li>
+                        <li>Tests pluridisciplinaires</li>
+                        <li>Niveau B1 en anglais requis</li>
+                        <li>Projet personnel et motivation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Frais de Scolarité -->
+    <section class="section" style="background-color: #f8f9fa;">
+        <div class="container">
+            <div class="section-title">
+                <h2>Frais de Scolarité 2024-2025</h2>
+                <p>Une tarification transparente et inclusive</p>
+            </div>
+
+            <div class="pricing-table">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Maternelle</h3>
+                        <div class="price">1 200 000 FCFA</div>
+                        <span class="price-period">par an</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>Frais d'inscription : 150 000 FCFA</li>
+                        <li>Fournitures incluses</li>
+                        <li>Goûters et cantine optionnels</li>
+                        <li>Activités périscolaires de base</li>
+                        <li>Assurance scolaire incluse</li>
+                    </ul>
+                </div>
+
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Populaire</div>
+                    <div class="pricing-header">
+                        <h3>Primaire</h3>
+                        <div class="price">1 500 000 FCFA</div>
+                        <span class="price-period">par an</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>Frais d'inscription : 200 000 FCFA</li>
+                        <li>Manuels scolaires inclus</li>
+                        <li>Numérique éducatif</li>
+                        <li>2 activités périscolaires au choix</li>
+                        <li>Sorties pédagogiques incluses</li>
+                    </ul>
+                </div>
+
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Secondaire</h3>
+                        <div class="price">1 800 000 FCFA</div>
+                        <span class="price-period">par an</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>Frais d'inscription : 250 000 FCFA</li>
+                        <li>Laboratoires et équipements</li>
+                        <li>Orientation professionnelle</li>
+                        <li>3 activités périscolaires au choix</li>
+                        <li>Préparation aux examens</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pricing-notes">
+                <div class="note-item">
+                    <i class="fas fa-hand-holding-usd"></i>
+                    <div>
+                        <h4>Facilités de Paiement</h4>
+                        <p>Échelonnement sur 10 mois sans frais • Prélèvement automatique disponible</p>
+                    </div>
+                </div>
+                <div class="note-item">
+                    <i class="fas fa-award"></i>
+                    <div>
+                        <h4>Bourses d'Excellence</h4>
+                        <p>Réduction de 10% à 50% selon les résultats • Dossier de demande à constituer</p>
+                    </div>
+                </div>
+                <div class="note-item">
+                    <i class="fas fa-users"></i>
+                    <div>
+                        <h4>Tarif Famille</h4>
+                        <p>10% de réduction à partir du 2ème enfant • 15% pour le 3ème enfant et suivants</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Formulaire de Pré-inscription -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Pré-inscription en Ligne</h2>
+                <p>Première étape pour rejoindre ADEPT SCHOOL</p>
+            </div>
+
+            <div class="pre-registration-form">
+                <form id="preRegistrationForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="childName">Nom de l'Enfant *</label>
+                            <input type="text" id="childName" name="childName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="childFirstName">Prénom de l'Enfant *</label>
+                            <input type="text" id="childFirstName" name="childFirstName" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="birthDate">Date de Naissance *</label>
+                            <input type="date" id="birthDate" name="birthDate" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="currentClass">Classe Actuelle *</label>
+                            <select id="currentClass" name="currentClass" required>
+                                <option value="">Sélectionnez...</option>
+                                <optgroup label="Maternelle">
+                                    <option value="ps">Petite Section</option>
+                                    <option value="ms">Moyenne Section</option>
+                                    <option value="gs">Grande Section</option>
+                                </optgroup>
+                                <optgroup label="Primaire">
+                                    <option value="cp">CP</option>
+                                    <option value="ce1">CE1</option>
+                                    <option value="ce2">CE2</option>
+                                    <option value="cm1">CM1</option>
+                                    <option value="cm2">CM2</option>
+                                </optgroup>
+                                <optgroup label="Collège">
+                                    <option value="6e">6ème</option>
+                                    <option value="5e">5ème</option>
+                                    <option value="4e">4ème</option>
+                                    <option value="3e">3ème</option>
+                                </optgroup>
+                                <optgroup label="Lycée">
+                                    <option value="2nde">Seconde</option>
+                                    <option value="1ere">Première</option>
+                                    <option value="term">Terminale</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="desiredClass">Classe Scolarisée *</label>
+                            <select id="desiredClass" name="desiredClass" required>
+                                <option value="">Sélectionnez...</option>
+                                <!-- Mêmes options que currentClass -->
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="schoolYear">Année Scolaire *</label>
+                            <select id="schoolYear" name="schoolYear" required>
+                                <option value="2024-2025">2024-2025</option>
+                                <option value="2025-2026">2025-2026</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="currentSchool">Établissement d'Origine</label>
+                        <input type="text" id="currentSchool" name="currentSchool">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="parentName">Nom du Parent *</label>
+                        <input type="text" id="parentName" name="parentName" required>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="parentEmail">Email *</label>
+                            <input type="email" id="parentEmail" name="parentEmail" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="parentPhone">Téléphone *</label>
+                            <input type="tel" id="parentPhone" name="parentPhone" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message ou Questions</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Informations complémentaires, questions spécifiques..."></textarea>
+                    </div>
+
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">Je souhaite recevoir les actualités d'ADEPT SCHOOL</label>
+                    </div>
+
+                    <div class="form-submit">
+                        <button type="submit" class="btn btn-large">
+                            <i class="fas fa-paper-plane"></i> Envoyer ma Pré-inscription
+                        </button>
+                        <p class="form-note">* Champs obligatoires. Vous recevrez une confirmation par email sous 24h.</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section FAQ -->
+    <section class="section" style="background-color: #f8f9fa;">
+        <div class="container">
+            <div class="section-title">
+                <h2>Questions Fréquentes</h2>
+                <p>Réponses aux interrogations les plus courantes</p>
+            </div>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Quels sont les documents nécessaires pour l'inscription ?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Le dossier complet comprend : extrait d'acte de naissance, photos d'identité, certificat de vaccination, bulletins des 2 dernières années, attestation de radiation (pour les transferts), et formulaire médical complété.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Y a-t-il des frais supplémentaires ?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Les frais de scolarité incluent l'ensemble des services de base. Les options supplémentaires (cantine, transport scolaire, certaines activités) font l'objet de frais complémentaires précisés dans le contrat d'inscription.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Comment fonctionnent les bourses d'excellence ?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Les bourses sont attribuées sur dossier, en fonction des résultats académiques et de la situation familiale. Le dossier de demande doit être déposé avant le 30 avril, avec les bulletins et une lettre de motivation.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Puis-je visiter l'établissement avant de m'inscrire ?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolument ! Nous organisons des portes ouvertes chaque mois et des visites individuelles sur rendez-vous. Contactez le secrétariat au +221 33 823 10 00 pour planifier votre visite.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Contact -->
+    <section style="background-color: #0055a4; color: white; text-align: center; padding: 80px 0;">
+        <div class="container">
+            <h2 style="font-size: 2.5rem; margin-bottom: 20px;">Des Questions ?</h2>
+            <p style="font-size: 1.3rem; margin-bottom: 30px; max-width: 700px; margin-left: auto; margin-right: auto;">
+                Notre équipe est à votre disposition pour vous accompagner dans votre projet d'inscription.
+            </p>
+            <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+                <a href="contact.html" class="btn" style="background-color: #ff6600; color: white;">
+                    <i class="fas fa-envelope"></i> Nous Contacter
+                </a>
+                <a href="tel:+221338231000" class="btn" style="background-color: transparent; border: 2px solid white;">
+                    <i class="fas fa-phone"></i> +221 33 823 10 00
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>ADEPT SCHOOL</h3>
+                    <p>École internationale d'excellence située au cœur de Dakar, formant les citoyens de demain depuis 2010.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Liens Rapides</h3>
+                    <a href="index.html">Accueil</a>
+                    <a href="about.html">À propos</a>
+                    <a href="etablissement.html">Établissement</a>
+                    <a href="pedagogie.html">Pédagogie</a>
+                    <a href="vie-scolaire.html">Vie Scolaire</a>
+                    <a href="inscriptions.html">Inscriptions</a>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Cycles</h3>
+                    <a href="maternelle.html">École Maternelle</a>
+                    <a href="elementaire.html">École Élémentaire</a>
+                    <a href="college.html">Collège</a>
+                    <a href="lycee.html">Lycée</a>
+                    <a href="activites.html">Activités Périscolaires</a>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Rue 10, Point E, Dakar</p>
+                    <p><i class="fas fa-phone"></i> +221 33 823 10 00</p>
+                    <p><i class="fas fa-envelope"></i> contact@adeptschool.sn</p>
+                    <p><i class="fas fa-clock"></i> Lun-Ven: 7h30-18h00</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 ADEPT SCHOOL. Tous droits réservés. | <a href="#" style="color: #ccc;">Mentions légales</a> | <a href="#" style="color: #ccc;">Politique de confidentialité</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        // Gestion du formulaire de pré-inscription
+        document.addEventListener('DOMContentLoaded', function() {
+            const preRegistrationForm = document.getElementById('preRegistrationForm');
+            
+            if (preRegistrationForm) {
+                preRegistrationForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    // Simulation d'envoi
+                    alert('Merci pour votre pré-inscription ! Nous vous contacterons dans les plus brefs délais pour finaliser votre dossier.');
+                    preRegistrationForm.reset();
+                });
+            }
+
+            // Gestion de la FAQ
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', function() {
+                    const answer = this.nextElementSibling;
+                    const icon = this.querySelector('i');
+                    
+                    // Fermer toutes les autres réponses
+                    document.querySelectorAll('.faq-answer').forEach(otherAnswer => {
+                        if (otherAnswer !== answer && otherAnswer.style.display === 'block') {
+                            otherAnswer.style.display = 'none';
+                            otherAnswer.previousElementSibling.querySelector('i').classList.remove('fa-chevron-up');
+                            otherAnswer.previousElementSibling.querySelector('i').classList.add('fa-chevron-down');
+                        }
+                    });
+                    
+                    // Basculer l'affichage de la réponse
+                    if (answer.style.display === 'block') {
+                        answer.style.display = 'none';
+                        icon.classList.remove('fa-chevron-up');
+                        icon.classList.add('fa-chevron-down');
+                    } else {
+                        answer.style.display = 'block';
+                        icon.classList.remove('fa-chevron-down');
+                        icon.classList.add('fa-chevron-up');
+                    }
+                });
+            });
+
+            // Initialiser toutes les réponses comme fermées
+            document.querySelectorAll('.faq-answer').forEach(answer => {
+                answer.style.display = 'none';
+            });
+        });
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pédagogie - ADEPT SCHOOL</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Top -->
+    <div class="header-top">
+        <div class="container">
+            <div class="contact-info">
+                <span><i class="fas fa-phone"></i> +221 33 823 10 00</span>
+                <span><i class="fas fa-envelope"></i> contact@adeptschool.sn</span>
+                <span><i class="fas fa-map-marker-alt"></i> Rue 10, Point E, Dakar</span>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Principale -->
+    <header class="main-header">
+        <div class="container nav-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="ADEPT SCHOOL" onerror="this.src='https://via.placeholder.com/80x80/0055a4/ffffff?text=AS'">
+                <div class="logo-text">
+                    <h1>ADEPT SCHOOL</h1>
+                    <p>École Internationale d'Excellence</p>
+                </div>
+            </div>
+            
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li class="dropdown">
+                        <a href="about.html">À propos <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="about.html">Présentation</a></li>
+                            <li><a href="histoire.html">Notre Histoire</a></li>
+                            <li><a href="direction.html">Direction</a></li>
+                            <li><a href="projet.html">Projet d'Établissement</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="etablissement.html">Établissement <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="maternelle.html">École Maternelle</a></li>
+                            <li><a href="elementaire.html">École Élémentaire</a></li>
+                            <li><a href="college.html">Collège</a></li>
+                            <li><a href="lycee.html">Lycée</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="pedagogie.html" class="active">Pédagogie <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="programmes.html">Programmes</a></li>
+                            <li><a href="methodes.html">Méthodes Pédagogiques</a></li>
+                            <li><a href="numerique.html">Numérique Éducatif</a></li>
+                            <li><a href="orientation.html">Orientation</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="vie-scolaire.html">Vie Scolaire</a></li>
+                    <li><a href="inscriptions.html">Inscriptions</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- En-tête de page -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Notre Pédagogie</h1>
+            <p>Des méthodes innovantes au service de la réussite de chaque élève</p>
+        </div>
+    </section>
+
+    <!-- Fil d'Ariane -->
+    <div class="breadcrumb">
+        <div class="container">
+            <a href="index.html">Accueil</a> > <span>Pédagogie</span>
+        </div>
+    </div>
+
+    <!-- Introduction -->
+    <section class="section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Une Pédagogie Innovante et Personnalisée</h2>
+                    <p>À ADEPT SCHOOL, nous croyons que chaque élève est unique et mérite une approche éducative adaptée à ses besoins, ses talents et son rythme d'apprentissage. Notre pédagogie combine les meilleures pratiques internationales avec une attention particulière au contexte africain.</p>
+                    
+                    <p>Nous formons des apprenants curieux, créatifs et capables de s'adapter aux défis du 21ème siècle, tout en développant des valeurs humaines solides.</p>
+                    
+                    <div class="pedagogy-features">
+                        <div class="pedagogy-feature">
+                            <i class="fas fa-user-graduate"></i>
+                            <h4>Apprentissage Personnalisé</h4>
+                            <p>Adaptation des méthodes à chaque profil d'apprenant</p>
+                        </div>
+                        <div class="pedagogy-feature">
+                            <i class="fas fa-hands-helping"></i>
+                            <h4>Pédagogie Collaborative</h4>
+                            <p>Travail en équipe et projets interdisciplinaires</p>
+                        </div>
+                        <div class="pedagogy-feature">
+                            <i class="fas fa-lightbulb"></i>
+                            <h4>Développement de la Créativité</h4>
+                            <p>Stimulation de l'innovation et de la pensée critique</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/pedagogie-innovation.jpg" alt="Innovation Pédagogique" onerror="this.src='https://via.placeholder.com/600x400/0055a4/ffffff?text=Innovation+Pédagogique'">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Méthodes Pédagogiques -->
+    <section class="section" style="background-color: #f8f9fa;">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nos Méthodes Pédagogiques</h2>
+                <p>Des approches diversifiées pour un apprentissage optimal</p>
+            </div>
+
+            <div class="methods-grid">
+                <div class="method-card">
+                    <div class="method-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3>Pédagogie de Projet</h3>
+                    <p>Les élèves développent des compétences transversales à travers des projets concrets et motivants qui donnent du sens aux apprentissages.</p>
+                    <ul>
+                        <li>Projets scientifiques annuels</li>
+                        <li>Création d'entreprise étudiante</li>
+                        <li>Projets artistiques et culturels</li>
+                        <li>Initiatives de développement durable</li>
+                    </ul>
+                </div>
+
+                <div class="method-card">
+                    <div class="method-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Apprentissage Collaboratif</h3>
+                    <p>Le travail en groupe et la coopération entre élèves favorisent l'entraide, la communication et le développement des compétences sociales.</p>
+                    <ul>
+                        <li>Travaux de groupe structurés</li>
+                        <li>Tutorat entre pairs</li>
+                        <li>Classes inversées</li>
+                        <li>Débats et discussions dirigées</li>
+                    </ul>
+                </div>
+
+                <div class="method-card">
+                    <div class="method-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Pédagogie Différenciée</h3>
+                    <p>Adaptation des contenus, des processus et des productions en fonction des besoins spécifiques de chaque élève.</p>
+                    <ul>
+                        <li>Parcours individualisés</li>
+                        <li>Groupes de niveau</li>
+                        <li>Supports variés</li>
+                        <li>Évaluation adaptative</li>
+                    </ul>
+                </div>
+
+                <div class="method-card">
+                    <div class="method-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>Ludopédagogie</h3>
+                    <p>Intégration des mécanismes du jeu dans les apprentissages pour augmenter la motivation et l'engagement des élèves.</p>
+                    <ul>
+                        <li>Escape games éducatifs</li>
+                        <li>Badges de compétences</li>
+                        <li>Challenges et défis</li>
+                        <li>Simulations interactives</li>
+                    </ul>
+                </div>
+
+                <div class="method-card">
+                    <div class="method-icon">
+                        <i class="fas fa-globe-africa"></i>
+                    </div>
+                    <h3>Pédagogie Contextualisée</h3>
+                    <p>Ancrage des apprentissages dans le contexte africain et sénégalais pour une éducation pertinente et significative.</p>
+                    <ul>
+                        <li>Étude de cas locaux</li>
+                        <li>Valorisation du patrimoine</li>
+                        <li>Projets communautaires</li>
+                        <li>Partnerships avec des acteurs locaux</li>
+                    </ul>
+                </div>
+
+                <div class="method-card">
+                    <div class="method-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Éducation Positive</h3>
+                    <p>Approche bienveillante qui valorise les forces de chaque élève et favorise l'épanouissement personnel et le bien-être.</p>
+                    <ul>
+                        <li>Renforcement positif</li>
+                        <li>Gestion des émotions</li>
+                        <li>Développement des soft skills</li>
+                        <li>Climat scolaire positif</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Numérique Éducatif -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Numérique Éducatif</h2>
+                <p>Intégration raisonnée des technologies au service des apprentissages</p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Une Approche Équilibrée du Numérique</h3>
+                    <p>Nous intégrons les technologies numériques de manière réfléchie et pédagogique, en veillant à préserver l'équilibre entre le virtuel et le réel.</p>
+                    
+                    <div class="digital-features">
+                        <div class="digital-feature">
+                            <i class="fas fa-laptop"></i>
+                            <div>
+                                <h4>Environnement Numérique de Travail</h4>
+                                <p>Plateforme collaborative pour élèves, parents et enseignants</p>
+                            </div>
+                        </div>
+                        
+                        <div class="digital-feature">
+                            <i class="fas fa-robot"></i>
+                            <div>
+                                <h4>Robotique et Programmation</h4>
+                                <p>Initiation au code dès le primaire avec des projets concrets</p>
+                            </div>
+                        </div>
+                        
+                        <div class="digital-feature">
+                            <i class="fas fa-vr-cardboard"></i>
+                            <div>
+                                <h4>Réalité Virtuelle</h4>
+                                <p>Visites immersives et simulations pour des apprentissages expérientiels</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/numerique-educatif.jpg" alt="Numérique Éducatif" onerror="this.src='https://via.placeholder.com/600x400/ff6600/ffffff?text=Numérique+Éducatif'">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Compétences du 21ème siècle -->
+    <section class="section" style="background-color: #f8f9fa;">
+        <div class="container">
+            <div class="section-title">
+                <h2>Compétences du 21ème Siècle</h2>
+                <p>Préparation aux défis de demain</p>
+            </div>
+
+            <div class="competences-grid">
+                <div class="competence-category">
+                    <h3><i class="fas fa-cogs"></i> Compétences Cognitives</h3>
+                    <ul>
+                        <li>Pensée critique et résolution de problèmes</li>
+                        <li>Créativité et innovation</li>
+                        <li>Métacognition et apprentissage autonome</li>
+                        <li>Flexibilité et adaptabilité</li>
+                    </ul>
+                </div>
+
+                <div class="competence-category">
+                    <h3><i class="fas fa-users"></i> Compétences Sociales</h3>
+                    <ul>
+                        <li>Communication et collaboration</li>
+                        <li>Intelligence émotionnelle</li>
+                        <li>Leadership et influence</li>
+                        <li>Empathie et ouverture interculturelle</li>
+                    </ul>
+                </div>
+
+                <div class="competence-category">
+                    <h3><i class="fas fa-tools"></i> Compétences Techniques</h3>
+                    <ul>
+                        <li>Maîtrise du numérique</li>
+                        <li>Programmation et robotique</li>
+                        <li>Culture data et analyse</li>
+                        <li>Citoyenneté numérique responsable</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Évaluation -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Notre Approche de l'Évaluation</h2>
+                <p>Une évaluation au service des apprentissages</p>
+            </div>
+
+            <div class="evaluation-content">
+                <div class="evaluation-method">
+                    <div class="evaluation-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="evaluation-text">
+                        <h3>Évaluation Formative</h3>
+                        <p>Retours réguliers et constructifs pour guider les progrès des élèves tout au long de leur apprentissage.</p>
+                    </div>
+                </div>
+
+                <div class="evaluation-method">
+                    <div class="evaluation-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <div class="evaluation-text">
+                        <h3>Évaluation par Compétences</h3>
+                        <p>Validation des acquis à travers des situations complexes et authentiques.</p>
+                    </div>
+                </div>
+
+                <div class="evaluation-method">
+                    <div class="evaluation-icon">
+                        <i class="fas fa-user-edit"></i>
+                    </div>
+                    <div class="evaluation-text">
+                        <h3>Auto-évaluation</h3>
+                        <p>Développement de la métacognition et de l'autonomie dans les apprentissages.</p>
+                    </div>
+                </div>
+
+                <div class="evaluation-method">
+                    <div class="evaluation-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <div class="evaluation-text">
+                        <h3>Évaluation Positive</h3>
+                        <p>Valorisation des progrès et des efforts plutôt que la sanction des erreurs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Formation des Enseignants -->
+    <section class="section" style="background-color: #0055a4; color: white;">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 style="color: white;">Formation Continue des Enseignants</h2>
+                    <p>Notre équipe pédagogique bénéficie de formations régulières pour maintenir l'excellence de nos pratiques éducatives :</p>
+                    
+                    <ul style="color: white;">
+                        <li>Formations aux nouvelles pédagogies</li>
+                        <li>Ateliers sur le numérique éducatif</li>
+                        <li>Séminaires internationaux</li>
+                        <li>Communautés de pratique</li>
+                        <li>Recherche-action en éducation</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="images/formation-enseignants.jpg" alt="Formation des Enseignants" onerror="this.src='https://via.placeholder.com/600x400/ffffff/0055a4?text=Formation+Enseignants'">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>ADEPT SCHOOL</h3>
+                    <p>École internationale d'excellence située au cœur de Dakar, formant les citoyens de demain depuis 2010.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Liens Rapides</h3>
+                    <a href="index.html">Accueil</a>
+                    <a href="about.html">À propos</a>
+                    <a href="etablissement.html">Établissement</a>
+                    <a href="pedagogie.html">Pédagogie</a>
+                    <a href="vie-scolaire.html">Vie Scolaire</a>
+                    <a href="inscriptions.html">Inscriptions</a>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Cycles</h3>
+                    <a href="maternelle.html">École Maternelle</a>
+                    <a href="elementaire.html">École Élémentaire</a>
+                    <a href="college.html">Collège</a>
+                    <a href="lycee.html">Lycée</a>
+                    <a href="activites.html">Activités Périscolaires</a>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Rue 10, Point E, Dakar</p>
+                    <p><i class="fas fa-phone"></i> +221 33 823 10 00</p>
+                    <p><i class="fas fa-envelope"></i> contact@adeptschool.sn</p>
+                    <p><i class="fas fa-clock"></i> Lun-Ven: 7h30-18h00</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 ADEPT SCHOOL. Tous droits réservés. | <a href="#" style="color: #ccc;">Mentions légales</a> | <a href="#" style="color: #ccc;">Politique de confidentialité</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vie Scolaire - ADEPT SCHOOL</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Top -->
+    <div class="header-top">
+        <div class="container">
+            <div class="contact-info">
+                <span><i class="fas fa-phone"></i> +221 33 823 10 00</span>
+                <span><i class="fas fa-envelope"></i> contact@adeptschool.sn</span>
+                <span><i class="fas fa-map-marker-alt"></i> Rue 10, Point E, Dakar</span>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Principale -->
+    <header class="main-header">
+        <div class="container nav-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="ADEPT SCHOOL" onerror="this.src='https://via.placeholder.com/80x80/0055a4/ffffff?text=AS'">
+                <div class="logo-text">
+                    <h1>ADEPT SCHOOL</h1>
+                    <p>École Internationale d'Excellence</p>
+                </div>
+            </div>
+            
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li class="dropdown">
+                        <a href="about.html">À propos <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="about.html">Présentation</a></li>
+                            <li><a href="histoire.html">Notre Histoire</a></li>
+                            <li><a href="direction.html">Direction</a></li>
+                            <li><a href="projet.html">Projet d'Établissement</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="etablissement.html">Établissement <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="maternelle.html">École Maternelle</a></li>
+                            <li><a href="elementaire.html">École Élémentaire</a></li>
+                            <li><a href="college.html">Collège</a></li>
+                            <li><a href="lycee.html">Lycée</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="pedagogie.html">Pédagogie <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="programmes.html">Programmes</a></li>
+                            <li><a href="methodes.html">Méthodes Pédagogiques</a></li>
+                            <li><a href="numerique.html">Numérique Éducatif</a></li>
+                            <li><a href="orientation.html">Orientation</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="vie-scolaire.html" class="active">Vie Scolaire</a></li>
+                    <li><a href="inscriptions.html">Inscriptions</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- En-tête de page -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Vie Scolaire</h1>
+            <p>Une communauté éducative dynamique et épanouissante</p>
+        </div>
+    </section>
+
+    <!-- Fil d'Ariane -->
+    <div class="breadcrumb">
+        <div class="container">
+            <a href="index.html">Accueil</a> > <span>Vie Scolaire</span>
+        </div>
+    </div>
+
+    <!-- Introduction -->
+    <section class="section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Une Vie Scolaire Riche et Épanouissante</h2>
+                    <p>À ADEPT SCHOOL, la vie scolaire dépasse largement le cadre des salles de classe. Nous croyons fermement que l'épanouissement personnel, la socialisation et le développement des talents sont essentiels à la réussite éducative.</p>
+                    
+                    <p>Notre établissement offre un environnement stimulant où chaque élève peut découvrir ses passions, développer ses compétences sociales et s'engager dans la vie de la communauté scolaire.</p>
+                    
+                    <div class="life-features">
+                        <div class="life-feature">
+                            <i class="fas fa-users"></i>
+                            <span>35+ Clubs et Associations</span>
+                        </div>
+                        <div class="life-feature">
+                            <i class="fas fa-trophy"></i>
+                            <span>Compétitions Sportives</span>
+                        </div>
+                        <div class="life-feature">
+                            <i class="fas fa-music"></i>
+                            <span>Événements Culturels</span>
+                        </div>
+                        <div class="life-feature">
+                            <i class="fas fa-hands-helping"></i>
+                            <span>Projets Solidaires</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/vie-scolaire-intro.jpg" alt="Vie Scolaire ADEPT SCHOOL" onerror="this.src='https://via.placeholder.com/600x400/0055a4/ffffff?text=Vie+Scolaire+Dynamique'">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Activités Périscolaires -->
+    <section class="section" style="background-color: #f8f9fa;">
+        <div class="container">
+            <div class="section-title">
+                <h2>Activités Périscolaires</h2>
+                <p>Découvrez nos clubs et ateliers pour tous les goûts et tous les talents</p>
+            </div>
+
+            <div class="activities-tabs">
+                <div class="tab-buttons">
+                    <button class="tab-button active" data-tab="sport">Sports</button>
+                    <button class="tab-button" data-tab="arts">Arts & Culture</button>
+                    <button class="tab-button" data-tab="sciences">Sciences & Techno</button>
+                    <button class="tab-button" data-tab="solidarite">Solidarité</button>
+                </div>
+
+                <div class="tab-content">
+                    <!-- Tab Sports -->
+                    <div class="tab-pane active" id="sport">
+                        <div class="activities-grid">
+                            <div class="activity-card">
+                                <div class="activity-icon">
+                                    <i class="fas fa-futbol"></i>
+                                </div>
+                                <h3>Football</h3>
+                                <p>Entraînements techniques, matches inter-classes et participation aux championnats scolaires.</p>
+                                <div class="activity-info">
+                                    <span><i class="fas fa-clock"></i> Mercredi 14h-16h</span>
+                                    <span><i class="fas fa-user"></i> M. Diallo</span>
+                                </div>
+                            </div>
+
+                            <div class="activity-card">
+                                <div class="activity-icon">
+                                    <i class="fas fa-basketball-ball"></i>
+                                </div>
+                                <h3>Basketball</h3>
+                                <p>Développement des techniques individuelles et du jeu collectif. Équipes filles et garçons.</p>
+                                <div class="activity-info">
+                                    <span><i class="fas fa-clock"></i> Mardi 16h-18h</span>
+                                    <span><i class="fas fa-user"></i> Mme Ndiaye</span>
+                                </div>
+                            </div>
+
+                            <div class="activity-card">
+                                <div class="activity-icon">
+                                    <i class="fas fa-swimmer"></i>
+                                </div>
+                                <h3>Natation</h3>
+                                <p>Apprentissage et perfectionnement dans notre piscine semi-olympique. Cours tous niveaux.</p>
+                                <div class="activity-info">
+                                    <span><i class="fas fa-clock"></i> Lundi & Jeudi 15h-17h</span>
+                                    <span><i class="fas fa-user"></i> M. Sarr</span>
+                                </div>
+                            </div>
+
+                            <div class="activity-card">
+                                <div class="activity-icon">
+                                    <i class="fas fa-dumbbell"></i>
+                                </div>
+                                <h3>Athlétisme</h3>
+                                <p>Course, sauts, lancers. Préparation aux compétitions régionales et nationales.</p>
+                                <div class="activity-info">
+                                    <span><i class="fas fa-clock"></i> Vendredi 15h-17h</span>
+                                    <span><i class="fas fa-user"></i> M. Fall</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tab Arts & Culture -->
+                    <div class="tab-pane" id="arts">
+                        <div class="activities-grid">
+                            <div class="activity-card">
+                                <div class="activity-icon">
+                                    <i class="fas fa-paint-brush"></i>
+                                </div>
+                                <h3>Arts Plastiques</h3>
+                                <p>Exploration des techniques picturales, modelage et création d'œuvres collectives.</p>
+                                <div class="activity-info">
+                                    <span><i class="fas fa-clock"></i> Lundi 16h-18h</span>
+                                    <span><i class="fas fa-user"></i> Mme Diouf</span>
+                                </div>
+                            </div>
+
+                            <div class="activity-card">
+                                <div class="activity-icon">
+                                    <i class="fas fa-music"></i>
+                                </div>
+                                <h3>Orchestre Scolaire</h3>
+                                <p>Pratique instrumentale collective. Concerts et représentations lors des événements.</p>
+                                <div class="activity-info">
+                                    <span><i class="fas fa-clock"></i> Mercredi 15h-17h</span>
+                                    <span><i class="fas fa-user"></i> M. Traoré</span>
+                                </div>
+                            </div>
+
+                            <div class="activity-card">
+                                <div class="activity-icon">
+                                    <i class="fas fa-theater-masks"></i>
+                                </div>
+                                <h3>Théâtre</h3>
+                                <p>Improvisation, travail sur texte et préparation de spectacles. Développement de la confiance en soi.</p>
+                                <div class="activity-info">
+                                    <span><i class="fas fa-clock"></i> Jeudi 16h-18h</span>
+                                    <span><i class="fas fa-user"></i> Mme Kane</span>
+                                </div>
+                            </div>
+
+                            <div class="activity-card">
+                                <div class="activity-icon">
+                                    <i class="fas fa-dance"></i>
+                                </div>
+                                <h3>Danse Traditionnelle</h3>
+                                <p>Découverte des danses africaines et valorisation du patrimoine culturel sénégalais.</p>
+                                <div class="activity-info">
+                                    <span><i class="fas fa-clock"></i> Vendredi 16h-18h</span>
+                                    <span><i class="fas fa-user"></i> Mme Sow</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Événements -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Événements Annuels</h2>
+                <p>Des moments forts qui rythment la vie de notre établissement</p>
+            </div>
+
+            <div class="events-timeline">
+                <div class="event-item">
+                    <div class="event-date">
+                        <span class="month">SEPT</span>
+                        <span class="day">15</span>
+                    </div>
+                    <div class="event-content">
+                        <h3>Journée d'Intégration</h3>
+                        <p>Cérémonie de bienvenue et activités de cohésion pour accueillir les nouveaux élèves dans la communauté ADEPT SCHOOL.</p>
+                    </div>
+                </div>
+
+                <div class="event-item">
+                    <div class="event-date">
+                        <span class="month">OCT</span>
+                        <span class="day">20</span>
+                    </div>
+                    <div class="event-content">
+                        <h3>Semaine des Sciences</h3>
+                        <p>Expositions, conférences et ateliers scientifiques animés par des chercheurs et nos élèves.</p>
+                    </div>
+                </div>
+
+                <div class="event-item">
+                    <div class="event-date">
+                        <span class="month">NOV</span>
+                        <span class="day">30</span>
+                    </div>
+                    <div class="event-content">
+                        <h3>Festival des Arts</h3>
+                        <p>Spectacles, expositions et performances artistiques mettant en valeur les talents de nos élèves.</p>
+                    </div>
+                </div>
+
+                <div class="event-item">
+                    <div class="event-date">
+                        <span class="month">JAN</span>
+                        <span class="day">15</span>
+                    </div>
+                    <div class="event-content">
+                        <h3>Tournoi Sportif Inter-écoles</h3>
+                        <p>Compétitions amicales rassemblant plusieurs établissements de Dakar.</p>
+                    </div>
+                </div>
+
+                <div class="event-item">
+                    <div class="event-date">
+                        <span class="month">MAR</span>
+                        <span class="day">08</span>
+                    </div>
+                    <div class="event-content">
+                        <h3>Journée de la Femme</h3>
+                        <p>Conférences, débats et activités autour de l'égalité des genres et l'empowerment féminin.</p>
+                    </div>
+                </div>
+
+                <div class="event-item">
+                    <div class="event-date">
+                        <span class="month">MAI</span>
+                        <span class="day">25</span>
+                    </div>
+                    <div class="event-content">
+                        <h3>Fête de l'École</h3>
+                        <p>Grande fête de fin d'année avec spectacles, stands et remise des prix d'excellence.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets Solidaires -->
+    <section class="section" style="background-color: #f8f9fa;">
+        <div class="container">
+            <div class="section-title">
+                <h2>Engagement Citoyen & Solidarité</h2>
+                <p>Former des citoyens responsables et engagés</p>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/projet-environnement.jpg" alt="Projet Environnement" onerror="this.src='https://via.placeholder.com/400x250/28a745/ffffff?text=Éco-École'">
+                    </div>
+                    <div class="project-content">
+                        <h3>Projet Éco-École</h3>
+                        <p>Implémentation du tri sélectif, création d'un potager bio et sensibilisation au développement durable.</p>
+                        <div class="project-stats">
+                            <span><i class="fas fa-recycle"></i> 85% de déchets recyclés</span>
+                            <span><i class="fas fa-leaf"></i> 200 arbres plantés</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/projet-solidarite.jpg" alt="Projet Solidarité" onerror="this.src='https://via.placeholder.com/400x250/dc3545/ffffff?text=Solidarité'">
+                    </div>
+                    <div class="project-content">
+                        <h3>Collecte Solidaire</h3>
+                        <p>Collecte de fournitures scolaires et organisation de cours de soutien pour les enfants défavorisés.</p>
+                        <div class="project-stats">
+                            <span><i class="fas fa-book"></i> 500 livres collectés</span>
+                            <span><i class="fas fa-users"></i> 150 enfants aidés</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/projet-sante.jpg" alt="Projet Santé" onerror="this.src='https://via.placeholder.com/400x250/6f42c1/ffffff?text=Santé'">
+                    </div>
+                    <div class="project-content">
+                        <h3>Sensibilisation Santé</h3>
+                        <p>Campagnes de prévention, don du sang et partenariat avec le centre de santé local.</p>
+                        <div class="project-stats">
+                            <span><i class="fas fa-heart"></i> 120 dons de sang</span>
+                            <span><i class="fas fa-stethoscope"></i> 8 campagnes annuelles</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Conseil des Élèves -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Conseil des Élèves</h2>
+                <p>La voix des élèves au cœur de notre établissement</p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Une Démocratie Scolaire Active</h3>
+                    <p>Le Conseil des Élèves d'ADEPT SCHOOL donne la parole aux élèves et les implique dans les décisions qui concernent la vie de l'établissement.</p>
+                    
+                    <div class="council-features">
+                        <div class="council-feature">
+                            <i class="fas fa-vote-yea"></i>
+                            <div>
+                                <h4>Élections Démocratiques</h4>
+                                <p>Processus électoral transparent avec campagne et vote pour tous les élèves à partir du CM1.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="council-feature">
+                            <i class="fas fa-comments"></i>
+                            <div>
+                                <h4>Assemblées Mensuelles</h4>
+                                <p>Réunions régulières avec la direction pour discuter des projets et préoccupations des élèves.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="council-feature">
+                            <i class="fas fa-lightbulb"></i>
+                            <div>
+                                <h4>Projets Concrets</h4>
+                                <p>Réalisation d'initiatives proposées et votées par les élèves (aménagements, événements...).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/conseil-eleves.jpg" alt="Conseil des Élèves" onerror="this.src='https://via.placeholder.com/600x400/ff6600/ffffff?text=Conseil+Élèves'">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Galerie -->
+    <section class="section" style="background-color: #0055a4; color: white;">
+        <div class="container">
+            <div class="section-title">
+                <h2 style="color: white;">Galerie des Moments Forts</h2>
+                <p>Quelques souvenirs de notre vie scolaire</p>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/galerie1.jpg" alt="Spectacle de fin d'année" onerror="this.src='https://via.placeholder.com/300x200/ffffff/0055a4?text=Spectacle'">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/galerie2.jpg" alt="Compétition sportive" onerror="this.src='https://via.placeholder.com/300x200/ffffff/0055a4?text=Sport'">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/galerie3.jpg" alt="Projet scientifique" onerror="this.src='https://via.placeholder.com/300x200/ffffff/0055a4?text=Sciences'">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/galerie4.jpg" alt="Cérémonie de remise des prix" onerror="this.src='https://via.placeholder.com/300x200/ffffff/0055a4?text=Cérémonie'">
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="#" class="btn" style="background-color: #ff6600; color: white;">
+                    <i class="fab fa-instagram"></i> Voir plus sur Instagram
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>ADEPT SCHOOL</h3>
+                    <p>École internationale d'excellence située au cœur de Dakar, formant les citoyens de demain depuis 2010.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Liens Rapides</h3>
+                    <a href="index.html">Accueil</a>
+                    <a href="about.html">À propos</a>
+                    <a href="etablissement.html">Établissement</a>
+                    <a href="pedagogie.html">Pédagogie</a>
+                    <a href="vie-scolaire.html">Vie Scolaire</a>
+                    <a href="inscriptions.html">Inscriptions</a>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Cycles</h3>
+                    <a href="maternelle.html">École Maternelle</a>
+                    <a href="elementaire.html">École Élémentaire</a>
+                    <a href="college.html">Collège</a>
+                    <a href="lycee.html">Lycée</a>
+                    <a href="activites.html">Activités Périscolaires</a>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Rue 10, Point E, Dakar</p>
+                    <p><i class="fas fa-phone"></i> +221 33 823 10 00</p>
+                    <p><i class="fas fa-envelope"></i> contact@adeptschool.sn</p>
+                    <p><i class="fas fa-clock"></i> Lun-Ven: 7h30-18h00</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 ADEPT SCHOOL. Tous droits réservés. | <a href="#" style="color: #ccc;">Mentions légales</a> | <a href="#" style="color: #ccc;">Politique de confidentialité</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        // Gestion des tabs des activités
+        document.addEventListener('DOMContentLoaded', function() {
+            const tabButtons = document.querySelectorAll('.tab-button');
+            const tabPanes = document.querySelectorAll('.tab-pane');
+            
+            tabButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const targetTab = this.getAttribute('data-tab');
+                    
+                    // Retirer la classe active de tous les boutons et panneaux
+                    tabButtons.forEach(btn => btn.classList.remove('active'));
+                    tabPanes.forEach(pane => pane.classList.remove('active'));
+                    
+                    // Ajouter la classe active au bouton et panneau cible
+                    this.classList.add('active');
+                    document.getElementById(targetTab).classList.add('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À Propos - ADEPT SCHOOL</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Top -->
+    <div class="header-top">
+        <div class="container">
+            <div class="contact-info">
+                <span><i class="fas fa-phone"></i> +221 33 823 10 00</span>
+                <span><i class="fas fa-envelope"></i> contact@adeptschool.sn</span>
+                <span><i class="fas fa-map-marker-alt"></i> Rue 10, Point E, Dakar</span>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Principale -->
+    <header class="main-header">
+        <div class="container nav-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="ADEPT SCHOOL" onerror="this.src='https://via.placeholder.com/80x80/0055a4/ffffff?text=AS'">
+                <div class="logo-text">
+                    <h1>ADEPT SCHOOL</h1>
+                    <p>École Internationale d'Excellence</p>
+                </div>
+            </div>
+            
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li class="dropdown">
+                        <a href="about.html" class="active">À propos <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="about.html">Présentation</a></li>
+                            <li><a href="histoire.html">Notre Histoire</a></li>
+                            <li><a href="direction.html">Direction</a></li>
+                            <li><a href="projet.html">Projet d'Établissement</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="etablissement.html">Établissement <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="maternelle.html">École Maternelle</a></li>
+                            <li><a href="elementaire.html">École Élémentaire</a></li>
+                            <li><a href="college.html">Collège</a></li>
+                            <li><a href="lycee.html">Lycée</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="pedagogie.html">Pédagogie <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="programmes.html">Programmes</a></li>
+                            <li><a href="methodes.html">Méthodes Pédagogiques</a></li>
+                            <li><a href="numerique.html">Numérique Éducatif</a></li>
+                            <li><a href="orientation.html">Orientation</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="vie-scolaire.html">Vie Scolaire</a></li>
+                    <li><a href="inscriptions.html">Inscriptions</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- En-tête de page -->
+    <section class="page-header">
+        <div class="container">
+            <h1>À Propos de ADEPT SCHOOL</h1>
+            <p>Découvrez notre histoire, notre mission et nos valeurs</p>
+        </div>
+    </section>
+
+    <!-- Fil d'Ariane -->
+    <div class="breadcrumb">
+        <div class="container">
+            <a href="index.html">Accueil</a> > <span>À propos</span>
+        </div>
+    </div>
+
+    <!-- Contenu principal -->
+    <section class="section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Notre Histoire</h2>
+                    <p>Fondée en 2010, ADEPT SCHOOL est née de la vision partagée d'éducateurs passionnés désireux de créer un établissement scolaire d'excellence au Sénégal. Notre école a rapidement grandi pour devenir une référence dans le paysage éducatif dakarois.</p>
+                    
+                    <p>Depuis nos débuts modestes avec seulement 50 élèves, nous avons évolué pour accueillir aujourd'hui plus de 1 200 étudiants de diverses nationalités, tout en conservant notre engagement envers la qualité de l'enseignement et l'épanouissement personnel de chaque élève.</p>
+                    
+                    <h3>Notre Mission</h3>
+                    <p>Notre mission est de former des citoyens éclairés, compétents et responsables, capables de s'adapter aux défis du monde contemporain. Nous cultivons l'excellence académique tout en favorisant le développement personnel et l'épanouissement de chaque élève.</p>
+                    
+                    <h3>Nos Valeurs</h3>
+                    <ul>
+                        <li><strong>Excellence :</strong> Nous visons l'excellence dans tous les domaines, académiques, sportifs et artistiques</li>
+                        <li><strong>Innovation :</strong> Nous intégrons les pédagogies les plus récentes et les technologies éducatives</li>
+                        <li><strong>Respect :</strong> Nous valorisons le respect mutuel, la diversité culturelle et l'inclusion</li>
+                        <li><strong>Engagement :</strong> Nous encourageons l'engagement communautaire et la responsabilité sociale</li>
+                        <li><strong>Intégrité :</strong> Nous promouvons l'honnêteté, l'éthique et la transparence</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="images/about-school.jpg" alt="ADEPT SCHOOL" onerror="this.src='https://via.placeholder.com/600x400/0055a4/ffffff?text=ADEPT+SCHOOL'">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Vision -->
+    <section class="section" style="background-color: #f8f9fa;">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/vision.jpg" alt="Notre Vision" onerror="this.src='https://via.placeholder.com/600x400/ff6600/ffffff?text=Notre+Vision'">
+                </div>
+                <div class="about-text">
+                    <h2>Notre Vision</h2>
+                    <p>Être reconnu comme l'établissement scolaire de référence en Afrique de l'Ouest, formant des leaders capables de contribuer positivement au développement de leur communauté et du continent.</p>
+                    
+                    <h3>Nos Objectifs Stratégiques</h3>
+                    <ul>
+                        <li>Maintenir un taux de réussite académique supérieur à 95%</li>
+                        <li>Développer les compétences du 21ème siècle chez nos élèves</li>
+                        <li>Renforcer les partenariats internationaux</li>
+                        <li>Promouvoir l'innovation pédagogique continue</li>
+                        <li>Favoriser l'engagement citoyen et communautaire</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Équipe Pédagogique -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Notre Équipe Pédagogique</h2>
+                <p>Des enseignants qualifiés et dévoués à la réussite de vos enfants</p>
+            </div>
+            
+            <div class="news-grid">
+                <div class="news-card">
+                    <div class="news-image">
+                        <img src="images/directeur.jpg" alt="Directeur" onerror="this.src='https://via.placeholder.com/400x300/0055a4/ffffff?text=Directeur'">
+                    </div>
+                    <div class="news-content">
+                        <h3>Dr. Abdoulaye Diop</h3>
+                        <p><strong>Directeur Général</strong></p>
+                        <p>Docteur en Sciences de l'Éducation avec 20 ans d'expérience dans l'enseignement. Ancien professeur à l'Université Cheikh Anta Diop.</p>
+                    </div>
+                </div>
+                
+                <div class="news-card">
+                    <div class="news-image">
+                        <img src="images/prof-maths.jpg" alt="Coordinatrice" onerror="this.src='https://via.placeholder.com/400x300/ff6600/ffffff?text=Coordinatrice'">
+                    </div>
+                    <div class="news-content">
+                        <h3>Mme Aïssatou Fall</h3>
+                        <p><strong>Coordinatrice Pédagogique</strong></p>
+                        <p>Spécialiste en pédagogie différenciée et technologies éducatives. 15 ans d'expérience dans l'enseignement international.</p>
+                    </div>
+                </div>
+                
+                <div class="news-card">
+                    <div class="news-image">
+                        <img src="images/prof-sciences.jpg" alt="Responsable Scientifique" onerror="this.src='https://via.placeholder.com/400x300/28a745/ffffff?text=Sciences'">
+                    </div>
+                    <div class="news-content">
+                        <h3>M. Cheikh Ndiaye</h3>
+                        <p><strong>Responsable Scientifique</strong></p>
+                        <p>Ingénieur de formation, passionné par l'enseignement des sciences. Expert en robotique éducative et programmation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Chiffres -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number">14</span>
+                    <span class="stat-label">Années d'expérience</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">65</span>
+                    <span class="stat-label">Enseignants diplômés</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">98%</span>
+                    <span class="stat-label">Satisfaction parents</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">12</span>
+                    <span class="stat-label">Partenariats internationaux</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Reconnaissances -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Reconnaissances & Partenariats</h2>
+                <p>Notre engagement pour l'excellence éducative</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Accréditations</h3>
+                    <ul>
+                        <li>Ministère de l'Éducation Nationale du Sénégal</li>
+                        <li>Agence pour l'Enseignement Français à l'Étranger (AEFE)</li>
+                        <li>Certification ISO 9001:2015 pour la qualité de l'enseignement</li>
+                        <li>Membre du réseau des Écoles Associées de l'UNESCO</li>
+                    </ul>
+                    
+                    <h3>Partenariats Internationaux</h3>
+                    <ul>
+                        <li>Échanges académiques avec le Lycée Français de New York</li>
+                        <li>Partenariat avec l'Université Gaston Berger de Saint-Louis</li>
+                        <li>Collaboration avec le MIT pour les programmes STEM</li>
+                        <li>Programme d'échange avec le Lycée International de Paris</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="images/accreditations.jpg" alt="Accréditations" onerror="this.src='https://via.placeholder.com/600x400/6f42c1/ffffff?text=Accréditations'">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>ADEPT SCHOOL</h3>
+                    <p>École internationale d'excellence située au cœur de Dakar, formant les citoyens de demain depuis 2010.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Liens Rapides</h3>
+                    <a href="index.html">Accueil</a>
+                    <a href="about.html">À propos</a>
+                    <a href="etablissement.html">Établissement</a>
+                    <a href="pedagogie.html">Pédagogie</a>
+                    <a href="vie-scolaire.html">Vie Scolaire</a>
+                    <a href="inscriptions.html">Inscriptions</a>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Cycles</h3>
+                    <a href="maternelle.html">École Maternelle</a>
+                    <a href="elementaire.html">École Élémentaire</a>
+                    <a href="college.html">Collège</a>
+                    <a href="lycee.html">Lycée</a>
+                    <a href="activites.html">Activités Périscolaires</a>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Rue 10, Point E, Dakar</p>
+                    <p><i class="fas fa-phone"></i> +221 33 823 10 00</p>
+                    <p><i class="fas fa-envelope"></i> contact@adeptschool.sn</p>
+                    <p><i class="fas fa-clock"></i> Lun-Ven: 7h30-18h00</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 ADEPT SCHOOL. Tous droits réservés. | <a href="#" style="color: #ccc;">Mentions légales</a> | <a href="#" style="color: #ccc;">Politique de confidentialité</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - ADEPT SCHOOL</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Top -->
+    <div class="header-top">
+        <div class="container">
+            <div class="contact-info">
+                <span><i class="fas fa-phone"></i> +221 33 823 10 00</span>
+                <span><i class="fas fa-envelope"></i> contact@adeptschool.sn</span>
+                <span><i class="fas fa-map-marker-alt"></i> Rue 10, Point E, Dakar</span>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Principale -->
+    <header class="main-header">
+        <div class="container nav-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="ADEPT SCHOOL" onerror="this.src='https://via.placeholder.com/80x80/0055a4/ffffff?text=AS'">
+                <div class="logo-text">
+                    <h1>ADEPT SCHOOL</h1>
+                    <p>École Internationale d'Excellence</p>
+                </div>
+            </div>
+            
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li class="dropdown">
+                        <a href="about.html">À propos <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="about.html">Présentation</a></li>
+                            <li><a href="histoire.html">Notre Histoire</a></li>
+                            <li><a href="direction.html">Direction</a></li>
+                            <li><a href="projet.html">Projet d'Établissement</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="etablissement.html">Établissement <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="maternelle.html">École Maternelle</a></li>
+                            <li><a href="elementaire.html">École Élémentaire</a></li>
+                            <li><a href="college.html">Collège</a></li>
+                            <li><a href="lycee.html">Lycée</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="pedagogie.html">Pédagogie <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="programmes.html">Programmes</a></li>
+                            <li><a href="methodes.html">Méthodes Pédagogiques</a></li>
+                            <li><a href="numerique.html">Numérique Éducatif</a></li>
+                            <li><a href="orientation.html">Orientation</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="vie-scolaire.html">Vie Scolaire</a></li>
+                    <li><a href="inscriptions.html">Inscriptions</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- En-tête de page -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact</h1>
+            <p>Nous sommes à votre écoute pour répondre à toutes vos questions</p>
+        </div>
+    </section>
+
+    <!-- Fil d'Ariane -->
+    <div class="breadcrumb">
+        <div class="container">
+            <a href="index.html">Accueil</a> > <span>Contact</span>
+        </div>
+    </div>
+
+    <!-- Section Contact Principale -->
+    <section class="section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Prenez Contact Avec Nous</h2>
+                    <p>Notre équipe est disponible pour vous accompagner dans votre projet éducatif et répondre à toutes vos interrogations.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Notre Adresse</h3>
+                                <p>Rue 10, Point E<br>Dakar, Sénégal</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Téléphone</h3>
+                                <p>+221 33 823 10 00<br>+221 77 123 45 67 (WhatsApp)</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Email</h3>
+                                <p>contact@adeptschool.sn<br>admissions@adeptschool.sn</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Horaires d'Ouverture</h3>
+                                <p>Lundi - Vendredi: 7h30 - 18h00<br>Samedi: 8h00 - 13h00</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="emergency-contact">
+                        <h3><i class="fas fa-exclamation-triangle"></i> Urgence Scolaire</h3>
+                        <p>En cas d'urgence concernant un élève pendant les heures de cours :</p>
+                        <p class="emergency-phone">+221 77 234 56 78</p>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <div class="contact-form-header">
+                        <h3>Envoyez-nous un Message</h3>
+                        <p>Remplissez le formulaire ci-dessous, nous vous répondrons dans les plus brefs délais.</p>
+                    </div>
+                    
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">Prénom *</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Nom *</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Téléphone</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Sujet *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Sélectionnez un sujet...</option>
+                                <option value="admission">Demande d'admission</option>
+                                <option value="information">Demande d'information</option>
+                                <option value="visite">Demande de visite</option>
+                                <option value="partenariat">Partenariat</option>
+                                <option value="recrutement">Recrutement</option>
+                                <option value="autre">Autre</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" placeholder="Votre message..." required></textarea>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                            <label for="newsletter">Je souhaite recevoir la newsletter d'ADEPT SCHOOL</label>
+                        </div>
+                        
+                        <div class="form-submit">
+                            <button type="submit" class="btn btn-large">
+                                <i class="fas fa-paper-plane"></i> Envoyer le Message
+                            </button>
+                            <p class="form-note">* Champs obligatoires</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Équipe de Contact -->
+    <section class="section" style="background-color: #f8f9fa;">
+        <div class="container">
+            <div class="section-title">
+                <h2>Notre Équipe de Contact</h2>
+                <p>Les personnes dédiées à votre accueil et à votre accompagnement</p>
+            </div>
+            
+            <div class="contact-team">
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="images/contact-directeur.jpg" alt="Directeur des Admissions" onerror="this.src='https://via.placeholder.com/150x150/0055a4/ffffff?text=DA'">
+                    </div>
+                    <h3>M. Amadou Diallo</h3>
+                    <p class="member-role">Directeur des Admissions</p>
+                    <p class="member-contact">admissions@adeptschool.sn<br>+221 33 823 10 01</p>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="images/contact-secretaire.jpg" alt="Secrétaire de Direction" onerror="this.src='https://via.placeholder.com/150x150/ff6600/ffffff?text=SD'">
+                    </div>
+                    <h3>Mme Aïssatou Ndiaye</h3>
+                    <p class="member-role">Secrétaire de Direction</p>
+                    <p class="member-contact">contact@adeptschool.sn<br>+221 33 823 10 00</p>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="images/contact-finances.jpg" alt="Responsable Financier" onerror="this.src='https://via.placeholder.com/150x150/28a745/ffffff?text=RF'">
+                    </div>
+                    <h3>M. Cheikh Sow</h3>
+                    <p class="member-role">Responsable Financier</p>
+                    <p class="member-contact">finances@adeptschool.sn<br>+221 33 823 10 02</p>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="images/contact-vie-scolaire.jpg" alt="Vie Scolaire" onerror="this.src='https://via.placeholder.com/150x150/6f42c1/ffffff?text=VS'">
+                    </div>
+                    <h3>Mme Fatou Bâ</h3>
+                    <p class="member-role">Vie Scolaire</p>
+                    <p class="member-contact">viescolaire@adeptschool.sn<br>+221 33 823 10 03</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Plan d'Accès -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Plan d'Accès</h2>
+                <p>Retrouvez-nous facilement au cœur de Dakar</p>
+            </div>
+            
+            <div class="location-content">
+                <div class="location-info">
+                    <h3>Comment Nous Rejoindre</h3>
+                    
+                    <div class="transport-options">
+                        <div class="transport-option">
+                            <i class="fas fa-bus"></i>
+                            <div>
+                                <h4>En Bus</h4>
+                                <p>Lignes 12, 23, 45 - Arrêt "Point E"<br>À 5 minutes à pied de l'arrêt</p>
+                            </div>
+                        </div>
+                        
+                        <div class="transport-option">
+                            <i class="fas fa-car"></i>
+                            <div>
+                                <h4>En Voiture</h4>
+                                <p>Parking visiteurs disponible<br>Stationnement sécurisé gratuit</p>
+                            </div>
+                        </div>
+                        
+                        <div class="transport-option">
+                            <i class="fas fa-taxi"></i>
+                            <div>
+                                <h4>En Taxi</h4>
+                                <p>Dire "Lycée ADEPT SCHOOL, Point E"<br>Zone bien connue des chauffeurs</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="visit-info">
+                        <h4><i class="fas fa-calendar-check"></i> Visites sur Rendez-vous</h4>
+                        <p>Nous vous recommandons de prendre rendez-vous pour une visite guidée de l'établissement. Contactez-nous au +221 33 823 10 00 pour planifier votre visite.</p>
+                    </div>
+                </div>
+                
+                <div class="location-map">
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3859.527379248072!2d-17.46758292468703!3d14.693685085747033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec1730e5dfd5c7d%3A0x5ea0ef84d3b9c8b1!2sPoint%20E%2C%20Dakar%2C%20Senegal!5e0!3m2!1sen!2sus!4v1689876543210!5m2!1sen!2sus" 
+                            width="100%" 
+                            height="400" 
+                            style="border:0; border-radius: 10px;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    <div class="map-actions">
+                        <a href="https://maps.google.com/?q=ADEPT+SCHOOL+Point+E+Dakar" target="_blank" class="btn btn-outline">
+                            <i class="fas fa-directions"></i> Itinéraire Google Maps
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section FAQ Rapide -->
+    <section class="section" style="background-color: #f8f9fa;">
+        <div class="container">
+            <div class="section-title">
+                <h2>Questions Fréquentes</h2>
+                <p>Réponses rapides aux questions les plus courantes</p>
+            </div>
+            
+            <div class="quick-faq">
+                <div class="faq-column">
+                    <div class="quick-faq-item">
+                        <h4><i class="fas fa-question-circle"></i> Quels sont les horaires de visite ?</h4>
+                        <p>Les visites se font sur rendez-vous du lundi au vendredi de 9h à 16h, et le samedi de 9h à 12h.</p>
+                    </div>
+                    
+                    <div class="quick-faq-item">
+                        <h4><i class="fas fa-question-circle"></i> Puis-je rencontrer un enseignant ?</h4>
+                        <p>Oui, sur rendez-vous. Nous organisons des rencontres individuelles avec les professeurs principaux.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-column">
+                    <div class="quick-faq-item">
+                        <h4><i class="fas fa-question-circle"></i> Y a-t-il une permanence téléphonique ?</h4>
+                        <p>Oui, notre standard est ouvert du lundi au vendredi de 7h30 à 18h00 et le samedi de 8h00 à 13h00.</p>
+                    </div>
+                    
+                    <div class="quick-faq-item">
+                        <h4><i class="fas fa-question-circle"></i> Délai de réponse aux emails ?</h4>
+                        <p>Nous nous engageons à répondre à tous les emails sous 48 heures ouvrées.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="inscriptions.html#faq" class="btn">
+                    <i class="fas fa-list"></i> Voir toutes les FAQ
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Urgent -->
+    <section style="background-color: #0055a4; color: white; text-align: center; padding: 80px 0;">
+        <div class="container">
+            <h2 style="font-size: 2.5rem; margin-bottom: 20px;">Besoin d'une Réponse Rapide ?</h2>
+            <p style="font-size: 1.3rem; margin-bottom: 30px; max-width: 700px; margin-left: auto; margin-right: auto;">
+                Contactez-nous directement par téléphone pour une réponse immédiate.
+            </p>
+            <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+                <a href="tel:+221338231000" class="btn" style="background-color: #ff6600; color: white; font-size: 1.2rem;">
+                    <i class="fas fa-phone"></i> +221 33 823 10 00
+                </a>
+                <a href="https://wa.me/221771234567" target="_blank" class="btn" style="background-color: #25D366; color: white; font-size: 1.2rem;">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>ADEPT SCHOOL</h3>
+                    <p>École internationale d'excellence située au cœur de Dakar, formant les citoyens de demain depuis 2010.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Liens Rapides</h3>
+                    <a href="index.html">Accueil</a>
+                    <a href="about.html">À propos</a>
+                    <a href="etablissement.html">Établissement</a>
+                    <a href="pedagogie.html">Pédagogie</a>
+                    <a href="vie-scolaire.html">Vie Scolaire</a>
+                    <a href="inscriptions.html">Inscriptions</a>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Cycles</h3>
+                    <a href="maternelle.html">École Maternelle</a>
+                    <a href="elementaire.html">École Élémentaire</a>
+                    <a href="college.html">Collège</a>
+                    <a href="lycee.html">Lycée</a>
+                    <a href="activites.html">Activités Périscolaires</a>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Rue 10, Point E, Dakar</p>
+                    <p><i class="fas fa-phone"></i> +221 33 823 10 00</p>
+                    <p><i class="fas fa-envelope"></i> contact@adeptschool.sn</p>
+                    <p><i class="fas fa-clock"></i> Lun-Ven: 7h30-18h00</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 ADEPT SCHOOL. Tous droits réservés. | <a href="#" style="color: #ccc;">Mentions légales</a> | <a href="#" style="color: #ccc;">Politique de confidentialité</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        // Gestion du formulaire de contact
+        document.addEventListener('DOMContentLoaded', function() {
+            const contactForm = document.getElementById('contactForm');
+            
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    // Récupération des données du formulaire
+                    const formData = new FormData(contactForm);
+                    const firstName = formData.get('firstName');
+                    const email = formData.get('email');
+                    
+                    // Simulation d'envoi
+                    alert(`Merci ${firstName} ! Votre message a bien été envoyé. Nous vous répondrons à l'adresse ${email} dans les plus brefs délais.`);
+                    contactForm.reset();
+                });
+            }
+
+            // Animation des méthodes de contact
+            const contactMethods = document.querySelectorAll('.contact-method');
+            
+            contactMethods.forEach(method => {
+                method.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-5px)';
+                });
+                
+                method.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0)';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Établissement - ADEPT SCHOOL</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Top -->
+    <div class="header-top">
+        <div class="container">
+            <div class="contact-info">
+                <span><i class="fas fa-phone"></i> +221 33 823 10 00</span>
+                <span><i class="fas fa-envelope"></i> contact@adeptschool.sn</span>
+                <span><i class="fas fa-map-marker-alt"></i> Rue 10, Point E, Dakar</span>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Principale -->
+    <header class="main-header">
+        <div class="container nav-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="ADEPT SCHOOL" onerror="this.src='https://via.placeholder.com/80x80/0055a4/ffffff?text=AS'">
+                <div class="logo-text">
+                    <h1>ADEPT SCHOOL</h1>
+                    <p>École Internationale d'Excellence</p>
+                </div>
+            </div>
+            
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li class="dropdown">
+                        <a href="about.html">À propos <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="about.html">Présentation</a></li>
+                            <li><a href="histoire.html">Notre Histoire</a></li>
+                            <li><a href="direction.html">Direction</a></li>
+                            <li><a href="projet.html">Projet d'Établissement</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="etablissement.html" class="active">Établissement <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="maternelle.html">École Maternelle</a></li>
+                            <li><a href="elementaire.html">École Élémentaire</a></li>
+                            <li><a href="college.html">Collège</a></li>
+                            <li><a href="lycee.html">Lycée</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="pedagogie.html">Pédagogie <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="programmes.html">Programmes</a></li>
+                            <li><a href="methodes.html">Méthodes Pédagogiques</a></li>
+                            <li><a href="numerique.html">Numérique Éducatif</a></li>
+                            <li><a href="orientation.html">Orientation</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="vie-scolaire.html">Vie Scolaire</a></li>
+                    <li><a href="inscriptions.html">Inscriptions</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- En-tête de page -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Notre Établissement</h1>
+            <p>Découvrez nos différents cycles d'enseignement de la maternelle au lycée</p>
+        </div>
+    </section>
+
+    <!-- Fil d'Ariane -->
+    <div class="breadcrumb">
+        <div class="container">
+            <a href="index.html">Accueil</a> > <span>Établissement</span>
+        </div>
+    </div>
+
+    <!-- Introduction -->
+    <section class="section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Un Parcours Éducatif Complet</h2>
+                    <p>ADEPT SCHOOL offre un parcours éducatif complet et cohérent de la maternelle au lycée. Notre établissement s'engage à accompagner chaque élève dans son développement académique, personnel et social tout au long de sa scolarité.</p>
+                    
+                    <p>Avec des infrastructures modernes, des équipements de pointe et une équipe pédagogique dévouée, nous créons un environnement d'apprentissage stimulant qui favorise l'excellence et l'épanouissement de chaque enfant.</p>
+                    
+                    <div class="establishment-features">
+                        <div class="feature-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Parcours personnalisé</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-microscope"></i>
+                            <span>Laboratoires modernes</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-laptop"></i>
+                            <span>Technologies éducatives</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-paint-brush"></i>
+                            <span>Espaces créatifs</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/etablissement-campus.jpg" alt="Campus ADEPT SCHOOL" onerror="this.src='https://via.placeholder.com/600x400/0055a4/ffffff?text=Campus+ADEPT+SCHOOL'">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Cycles d'Enseignement -->
+    <section class="section" style="background-color: #f8f9fa;">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nos Cycles d'Enseignement</h2>
+                <p>Un accompagnement personnalisé à chaque étape du développement</p>
+            </div>
+
+            <!-- Cycle Maternelle -->
+            <div class="cycle-section" id="maternelle">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>École Maternelle</h3>
+                        <p class="cycle-subtitle">De 3 à 6 ans • De la Petite Section à la Grande Section</p>
+                        <p>Notre école maternelle offre un environnement sécurisé et stimulant pour l'éveil des tout-petits. Nous favorisons le développement sensoriel, moteur et social dans un cadre bienveillant.</p>
+                        
+                        <h4>Points Forts :</h4>
+                        <ul>
+                            <li>Éveil linguistique (français, anglais, wolof)</li>
+                            <li>Activités psychomotrices quotidiennes</li>
+                            <li>Ateliers d'éveil artistique et musical</li>
+                            <li>Socialisation et autonomie progressive</li>
+                            <li>Petits effectifs (max 20 élèves par classe)</li>
+                        </ul>
+                        
+                        <h4>Horaires :</h4>
+                        <p>Lundi au Vendredi • 8h00 - 16h00<br>
+                        Garderie disponible jusqu'à 18h00</p>
+                        
+                        <a href="maternelle.html" class="btn">Découvrir la Maternelle</a>
+                    </div>
+                    <div class="about-image">
+                        <img src="images/maternelle-detail.jpg" alt="École Maternelle" onerror="this.src='https://via.placeholder.com/600x400/ff6600/ffffff?text=École+Maternelle'">
+                        <div class="cycle-age">3-6 ans</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cycle Élémentaire -->
+            <div class="cycle-section" id="elementaire">
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="images/elementaire-detail.jpg" alt="École Élémentaire" onerror="this.src='https://via.placeholder.com/600x400/28a745/ffffff?text=École+Élémentaire'">
+                        <div class="cycle-age">6-11 ans</div>
+                    </div>
+                    <div class="about-text">
+                        <h3>École Élémentaire</h3>
+                        <p class="cycle-subtitle">De 6 à 11 ans • Du CP au CM2</p>
+                        <p>L'école élémentaire consolide les apprentissages fondamentaux tout en développant la curiosité intellectuelle et l'autonomie des élèves.</p>
+                        
+                        <h4>Domaines d'Apprentissage :</h4>
+                        <ul>
+                            <li>Français (lecture, écriture, orthographe)</li>
+                            <li>Mathématiques et résolution de problèmes</li>
+                            <li>Éveil scientifique et technologique</li>
+                            <li>Histoire-Géographie-Éducation civique</li>
+                            <li>Anglais quotidien et initiation à l'espagnol</li>
+                            <li>Éducation artistique et sportive</li>
+                        </ul>
+                        
+                        <h4>Activités Périscolaires :</h4>
+                        <p>Club de lecture, robotique, arts plastiques, football, natation, échecs</p>
+                        
+                        <a href="elementaire.html" class="btn">Découvrir l'Élémentaire</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cycle Collège -->
+            <div class="cycle-section" id="college">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Collège</h3>
+                        <p class="cycle-subtitle">De 11 à 15 ans • De la 6ème à la 3ème</p>
+                        <p>Le collège marque une étape importante dans le parcours scolaire. Nous accompagnons les élèves dans cette transition vers l'adolescence avec un cadre structurant et stimulant.</p>
+                        
+                        <h4>Spécificités :</h4>
+                        <ul>
+                            <li>Enseignement pluridisciplinaire renforcé</li>
+                            <li>Options linguistiques (anglais, espagnol, allemand)</li>
+                            <li>Accompagnement personnalisé et tutorat</li>
+                            <li>Préparation au Diplôme National du Brevet</li>
+                            <li>Orientation progressive et construction du projet personnel</li>
+                        </ul>
+                        
+                        <h4>Projets Pédagogiques :</h4>
+                        <p>Voyages culturels, projets scientifiques, concours littéraires, jumelages internationaux</p>
+                        
+                        <a href="college.html" class="btn">Découvrir le Collège</a>
+                    </div>
+                    <div class="about-image">
+                        <img src="images/college-detail.jpg" alt="Collège" onerror="this.src='https://via.placeholder.com/600x400/6f42c1/ffffff?text=Collège'">
+                        <div class="cycle-age">11-15 ans</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cycle Lycée -->
+            <div class="cycle-section" id="lycee">
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="images/lycee-detail.jpg" alt="Lycée" onerror="this.src='https://via.placeholder.com/600x400/dc3545/ffffff?text=Lycée'">
+                        <div class="cycle-age">15-18 ans</div>
+                    </div>
+                    <div class="about-text">
+                        <h3>Lycée</h3>
+                        <p class="cycle-subtitle">De 15 à 18 ans • Seconde, Première, Terminale</p>
+                        <p>Notre lycée prépare les élèves aux baccalauréats généraux avec une offre de spécialités diversifiée et un accompagnement vers l'enseignement supérieur.</p>
+                        
+                        <h4>Filières et Spécialités :</h4>
+                        <ul>
+                            <li><strong>Baccalauréat Général :</strong> Scientifique, Économique, Littéraire</li>
+                            <li><strong>Spécialités :</strong> Mathématiques, Physique-Chimie, SVT, SES, HGGSP, LLCE</li>
+                            <li><strong>Options :</strong> Arts plastiques, Théâtre, Latin, Musique</li>
+                        </ul>
+                        
+                        <h4>Préparation Supérieure :</h4>
+                        <ul>
+                            <li>Ateliers d'orientation post-bac</li>
+                            <li>Préparation aux concours des grandes écoles</li>
+                            <li>Stages en entreprise et immersion universitaire</li>
+                            <li>Partnerships avec des universités internationales</li>
+                        </ul>
+                        
+                        <a href="lycee.html" class="btn">Découvrir le Lycée</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Infrastructures -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nos Infrastructures</h2>
+                <p>Des équipements modernes au service de l'apprentissage</p>
+            </div>
+            
+            <div class="infrastructure-grid">
+                <div class="infrastructure-card">
+                    <div class="infrastructure-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3>Laboratoires Scientifiques</h3>
+                    <p>3 laboratoires équipés (physique, chimie, biologie) avec matériel de pointe pour les travaux pratiques.</p>
+                </div>
+                
+                <div class="infrastructure-card">
+                    <div class="infrastructure-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Salles Informatiques</h3>
+                    <p>4 salles multimédias avec 120 ordinateurs, tablettes tactiles et équipements de programmation.</p>
+                </div>
+                
+                <div class="infrastructure-card">
+                    <div class="infrastructure-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>CDI & Médiathèque</h3>
+                    <p>Centre de documentation de 400m² avec 15 000 ouvrages, espace numérique et salle de lecture.</p>
+                </div>
+                
+                <div class="infrastructure-card">
+                    <div class="infrastructure-icon">
+                        <i class="fas fa-basketball-ball"></i>
+                    </div>
+                    <h3>Installations Sportives</h3>
+                    <p>Gymnase, terrain de football, piste d'athlétisme, courts de tennis et piscine semi-olympique.</p>
+                </div>
+                
+                <div class="infrastructure-card">
+                    <div class="infrastructure-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>Espace Artistique</h3>
+                    <p>Ateliers d'arts plastiques, studio de musique, salle de théâtre et espace d'exposition.</p>
+                </div>
+                
+                <div class="infrastructure-card">
+                    <div class="infrastructure-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Restauration</h3>
+                    <p>Cantine avec cuisine sur place, menus équilibrés et espace détente pour les élèves.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section CTA Inscriptions -->
+    <section style="background-color: #0055a4; color: white; text-align: center; padding: 80px 0;">
+        <div class="container">
+            <h2 style="font-size: 2.5rem; margin-bottom: 20px;">Rejoignez Notre Établissement</h2>
+            <p style="font-size: 1.3rem; margin-bottom: 30px; max-width: 700px; margin-left: auto; margin-right: auto;">
+                Découvrez nos conditions d'admission et inscrivez votre enfant pour faire partie de la communauté ADEPT SCHOOL.
+            </p>
+            <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+                <a href="inscriptions.html" class="btn" style="background-color: #ff6600; color: white;">Procédure d'Inscription</a>
+                <a href="contact.html" class="btn" style="background-color: transparent; border: 2px solid white;">Visite Virtuelle</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>ADEPT SCHOOL</h3>
+                    <p>École internationale d'excellence située au cœur de Dakar, formant les citoyens de demain depuis 2010.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Liens Rapides</h3>
+                    <a href="index.html">Accueil</a>
+                    <a href="about.html">À propos</a>
+                    <a href="etablissement.html">Établissement</a>
+                    <a href="pedagogie.html">Pédagogie</a>
+                    <a href="vie-scolaire.html">Vie Scolaire</a>
+                    <a href="inscriptions.html">Inscriptions</a>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Cycles</h3>
+                    <a href="maternelle.html">École Maternelle</a>
+                    <a href="elementaire.html">École Élémentaire</a>
+                    <a href="college.html">Collège</a>
+                    <a href="lycee.html">Lycée</a>
+                    <a href="activites.html">Activités Périscolaires</a>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Rue 10, Point E, Dakar</p>
+                    <p><i class="fas fa-phone"></i> +221 33 823 10 00</p>
+                    <p><i class="fas fa-envelope"></i> contact@adeptschool.sn</p>
+                    <p><i class="fas fa-clock"></i> Lun-Ven: 7h30-18h00</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 ADEPT SCHOOL. Tous droits réservés. | <a href="#" style="color: #ccc;">Mentions légales</a> | <a href="#" style="color: #ccc;">Politique de confidentialité</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>Ajout du site web
